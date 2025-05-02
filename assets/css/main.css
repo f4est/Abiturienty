@@ -1,0 +1,64 @@
+:root {
+  /* Цветовая палитра сайта */
+  --color-snow-white: #eef0eb;
+  --color-skyway: #abbed1;
+  --color-ashleigh-blue: #6987a9;
+  --color-yolk-yellow: #e0ae50;
+  
+  /* Дополнительные цвета и переменные */
+  --color-text: #333;
+  --color-bg: var(--color-snow-white);
+  --color-primary: var(--color-ashleigh-blue);
+  --color-secondary: var(--color-skyway);
+  --color-accent: var(--color-yolk-yellow);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5a769a;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background-color: #99adc1;
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: #cb9c45;
+} 
